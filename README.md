@@ -59,7 +59,7 @@ https://YOUR-WORKER.workers.dev/?dieuri=https://example.com&Method=POST&HEADER1=
 Use PassLimit to fuzz endpoints by varying path parameters:
 
 ```bash
-https://YOUR-WORKER.workers.dev/?dieuri=https://example.com/FUZZ&Method=GET
+ffuf -u https://YOUR-WORKER.workers.dev/?dieuri=https://example.com/FUZZ&Method=GET -w wordlist.txt
 ```
 
 Replace `FUZZ` dynamically to test various endpoints under `https://example.com`.
