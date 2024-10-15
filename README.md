@@ -64,10 +64,6 @@ ffuf -u https://YOUR-WORKER.workers.dev/?dieuri=https://example.com/FUZZ&Method=
 
 Replace `FUZZ` dynamically to test various endpoints under `https://example.com`.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
 ## Acknowledgments
 
 - Inspired by [dewebdes](https://github.com/dewebdes) for the original Cloudflare Worker script.
